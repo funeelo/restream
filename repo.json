@@ -1,0 +1,9 @@
+{
+    "name": "Restream Cloudstream Repo",
+    "iconUrl": "https://avatars.githubusercontent.com/u/110329388?v=4&size=64",
+    "description": "koleksi repo cloudstream",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/funeelo/restream/refs/heads/builds/plugins.json"
+    ]
+}
