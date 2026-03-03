@@ -36,12 +36,12 @@ subprojects {
     apply(plugin = "com.lagradost.cloudstream3.gradle")
 
     cloudstream {
-        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/HatsuneMikuUwU/cloudstream-extensions-uwu")
-        authors = listOf("Miku")
+        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/funeelo/restream")
+        authors = listOf("F")
     }
 
     android {
-        namespace = "com.miku"
+        namespace = "repo.fun.id"
 
         defaultConfig {
             minSdk = 21
